@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка - VR Аренда</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <header>
+        <div class="container">
+            <h1>VR Аренда гарнитур</h1>
+            <p>Погрузитесь в виртуальную реальность уже сегодня</p>
+            <a href="shop.html" class="btn-primary">Перейти в магазин</a>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы предоставляем в аренду современные VR-гарнитуры для игр, обучения и бизнеса. Гибкие условия, доставка и поддержка.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Игровые сессии</h3>
+                    <p>Аренда на час, день или неделю для погружения в лучшие VR-игры.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-school"></i>
+                    <h3>Обучение и тренажеры</h3>
+                    <p>VR-обучение для профессионалов: медицина, инженерия, дизайн.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Бизнес и мероприятия</h3>
+                    <p>Виртуальные презентации, конференции и тимбилдинг.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Наши работы</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/portfolio1.svg" alt="VR Gaming">
+                    <div class="overlay">
+                        <h3>VR Gaming Zone</h3>
+                        <p>Полный набор гарнитур для групповых сессий.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio2.svg" alt="VR Education">
+                    <div class="overlay">
+                        <h3>Обучение хирургии</h3>
+                        <p>Симуляции для медицинских студентов.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio3.svg" alt="VR Business">
+                    <div class="overlay">
+                        <h3>Виртуальная конференция</h3>
+                        <p>3D-пространство для нетворкинга.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Отправить запрос</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 VR Аренда. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
